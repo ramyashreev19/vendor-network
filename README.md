@@ -1,1 +1,1 @@
-"# vendor-network" 
+"vendor-network" 
