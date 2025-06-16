@@ -1,4 +1,6 @@
-variable "aws-region" {}
+variable "aws-region" {
+    default = "ap-south-1"
+}
 
 variable "app_name" {
     description = "Name of the app"
@@ -17,4 +19,9 @@ variable "private_subnet" {
 
 variable "availability_zones" {
     default = ["ap-south-1a", "ap-south-1b"]
+}
+
+variable "aws_region" {
+  description = "The AWS region to deploy resources in"
+  type        = string
 }
